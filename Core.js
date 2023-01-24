@@ -1386,7 +1386,7 @@ return list[Math.floor(list.length * Math.random())]
     }
    
     if (smallinput=='bot') {
-      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Sebastian* and curbarently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
+      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Max_2* and curbarently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
 
     if (smallinput=='lol') {
@@ -1412,6 +1412,9 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput.includes('Ohio ')|| smallinput.includes('Hi') || smallinput.includes('Moin')) {
       reply (`Yai endlich wider da *${pushname}*`);
     }      
+	
+	if (smallinput=='Hey!') {
+        reply (`Hi ${pushname}`)
 
 switch(command) {
 
@@ -4772,7 +4775,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Sebastian*.
+I am *Miku Nakano*, a bot developed by *Max_2*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4846,7 +4849,7 @@ reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomec
 
 
  『  *${global.BotName}*  』
- Powered by: *Sebastian*
+ Powered by: *Max_2*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
